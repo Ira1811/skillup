@@ -1,0 +1,57 @@
+*{
+    margin: auto;
+}
+
+
+
+main {
+    border: 1px solid black;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+div {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+h1 {
+    background-color: black;
+    color: beige;
+    text-align: center;
+}
+
+h2 {
+    border-top: 1px black solid;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    
+}
+
+a {
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    text-align: right;
+}
+
+section{
+    display: flex;
+justify-content: center;
+}

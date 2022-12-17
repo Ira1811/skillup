@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 100px;
+    background-color: rgb(184, 218, 218);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+#contact {
+    background: rgb(188, 180, 177);
+    padding: 25px;
+    margin: 150px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0 15px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+#input-name,
+#input-email,
+#input-number,
+#input-website,
+#input-texarea,
+#input-button{
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(235, 235, 220);
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#input-texarea{
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#input-button{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: rgb(157, 124, 157);
+    color: azure;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 0 5px;
+
+}
+
+
+#input-button:hover{
+background-color: blue;
+}
+
+.copyright{
+    text-align: center;
+}
+
+@media (min-width:500px) and (max-widht:700px)
+{
+    body{
+        font-size:50px;
+        color: rgb(255, 34, 34);
+    }
+    .container{
+        color: blue;
+        width: 200px;
+    }
+}

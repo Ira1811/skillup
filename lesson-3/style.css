@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+color: red ;
+font-family: 'Rubik Vinyl', cursive;
+font-size: 25px;
+}
+
+.blue{
+    color: blue;
+}
+
+#yellow{
+    color: yellow;
+}
+
+section{
+border: 1px solid black;
+}
+ 
+#pink{
+    color: pink;
+}
+
+
+/* 
+div:nth-child(2){
+    color: blue;
+}
+
+
+div:nth-child(4){
+    color: red;
+}
+
+div::first-line{
+    font-size: 45px;
+}
+
+div::before{
+    content:"hello";
+}
+div::after{
+    content:"hello";
+}
+
+
+div:hover{
+    color: yellow;
+} */
+
+span{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+}
+
+div{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;  
+    display: inline-block;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
