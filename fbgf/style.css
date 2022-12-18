@@ -1,0 +1,17 @@
+.parent{
+background-color: aqua;
+width: 600px;
+height: 600px;
+padding: 50px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+}
+
+.child{
+    background-color: rgb(196, 181, 165);
+    width: 100px;
+    height: 100px;
+
+
+}
